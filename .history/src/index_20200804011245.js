@@ -5,7 +5,7 @@ import store from './redux/store';
 import TodoApp from './TodoApp';
 
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider>
     <TodoApp />
   </Provider>,
   document.getElementById('root')
