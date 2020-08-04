@@ -34,7 +34,7 @@ export default function(state = initialState, action) {
                 }
             }
         }
-        default: {
+        default:{
             return state;
         }
     }

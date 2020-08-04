@@ -27,7 +27,7 @@ class AddTodo extends React.Component {
                     value={this.state.input}
                 />
                 <button className="add-todo" onClick={this.handleAddTodo}>
-                    Add Todo
+                Add Todo
                 </button>
             </div>
         );
